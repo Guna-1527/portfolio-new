@@ -45,13 +45,16 @@ const Skills = () => {
       <div className="text-lime-100 pt-[150px]">
         <div className="w-[90%] m-auto h-[250px] mt-10 grid grid-cols-4">
           {data.map((data, i) => (
-            <div key={i} className="bg-bg-darker w-[250px] rounded-lg shadow-2xl mt-10 p-10">
-              <img
-                src={data.src}
-                className="object-contain"
-                alt=""
-              />
-              <p className="text-center mt-2 font-semibold text-bg-light">{data.title}</p>
+            <div
+              key={i}
+              className=" bg-bg-darker w-[250px] rounded-lg shadow-2xl mt-10 p-10"
+            >
+              <div className="skillContainer">
+                <img src={data.src} className="object-contain" alt="" />
+                <p className="text-center mt-2 font-semibold text-bg-light">
+                  {data.title}
+                </p>
+              </div>
             </div>
           ))}
         </div>

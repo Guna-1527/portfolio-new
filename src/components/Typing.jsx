@@ -5,9 +5,9 @@ const Typing = () => {
     <TypeAnimation
     className="bg-bg-yellow px-4 py-2 inline text-2xl font-bold mt-5 font-mono"
       sequence={[
-        "I'm Java developer",
+        "Java developer",
         1000,
-        "I'm Full stack Developer",
+        "Full stack Developer",
         1000,
       ]}
       wrapper="span"

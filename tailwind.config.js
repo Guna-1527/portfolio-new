@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'firaCode': ['fira Code'],
+        'Nunito': ['Nunito'],
+        'Anton' : ['Anton'],
+        'Montserrat' : ['Montserrat'],
       },
       colors: {
         'txt-header': "#ededed",

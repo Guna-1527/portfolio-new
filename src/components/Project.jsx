@@ -21,7 +21,7 @@ const Project = () => {
         <div className='text-lime-100 pt-[200px] flex gap-10 '>
             {
                 work.map((w, i) => (
-                    <div className='w-[250px] bg-black rounded-xl mt-10'>
+                    <div className='projectContainer w-[250px] bg-black rounded-xl mt-10'>
                         <a href={w.link} target="_blank" rel="noopener noreferrer">
                             <div className='p-2'>
                                 <img src={w.src} className='w-full h-full object-contain' alt="" />
