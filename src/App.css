@@ -80,6 +80,6 @@ html {
     transition: transform 1s ease 0s;
   
     &:hover {
-      transform: perspective(3000px) rotateY(-20deg);
+      transform: perspective(3000px) rotateY(-22deg);
     }
   }
