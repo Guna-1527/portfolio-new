@@ -83,7 +83,7 @@ const Contact = () => {
               placeholder="Message"
               className="input input-bordered text-black input-lg w-full max-w-xs"
             />
-            <button className="btn btn-neutral text-xl flex items-center justify-center bg-bg-yellow text-black">
+            <button className="btn btn-neutral text-xl flex items-center justify-center bg-bg-yellow text-black hover:text-white">
               send message <IoIosSend size={20}/>
             </button>
           </div>

@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="flex-1 pt-[210px]">
           <h1 className="text-5xl font-bold text-bg-yellow">GUNA PRASANTH</h1>
-          <p className="mt-5 text-justify w-[80%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum assumenda et similique ipsam quos totam commodi eaque delectus corporis, iusto, provident ut culpa repellendus quam sed nulla a! Aliquam, ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, molestiae tempora dolorem voluptatibus quia quos esse ab amet laudantium nemo, vitae reprehenderit doloribus asperiores natus harum facilis sed exercitationem.</p>
+          <p className="mt-5 text-justify w-[80%] font-Montserrat leading-10 tracking-wide">Guna Prasanth, a CSE student at VSB College of Engineering's Technical Campus, brings a diverse skillset to the table. Proficient in Java development, Pega development, and frontend technologies like HTML, CSS, and JavaScript. I can handle tasks across the development spectrum, from backend logic to user-friendly interfaces. Eager to learn and contribute, he's a valuable asset to any team.</p>
         </div>
       </div>
     </div>

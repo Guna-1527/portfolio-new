@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-bg-darker w-full h-[4.5rem] fixed z-50">
+    <div className="bg-bg-darker w-full h-[4.5rem] font-Montserrat fixed z-50">
       <div className="max-w-[110rem] h-full m-auto text-bg-light flex justify-between items-center">
         <h1 className="text-2xl font-bold">Portfo<span className="text-bg-yellow">lio.</span></h1>
         <div className="flex gap-10">

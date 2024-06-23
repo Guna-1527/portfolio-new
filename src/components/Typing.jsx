@@ -9,6 +9,8 @@ const Typing = () => {
         1000,
         "Full stack Developer",
         1000,
+        "Pega Developer",
+        1000,
       ]}
       wrapper="span"
       speed={50}
